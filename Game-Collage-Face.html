@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>🖼️ Unit 4 Face </title>
+<title>🖼️ Unit 6 Toys </title>
 <style>
 :root { --accent: #0077b6; --bg: url('PaisajeV.jpg') no-repeat center center fixed; }
 body { margin:0; font-family:"Comic Sans MS", cursive; background:var(--bg); display:flex; flex-direction:column; align-items:center; justify-content:flex-start; min-height:100vh; padding:18px; box-sizing:border-box; }
@@ -112,7 +112,7 @@ h1 { color:var(--accent); margin:0 0 12px 0; text-align:center; }
 
 <!-- Cover Page -->
 <div class="cover" id="cover">
-  <h1>🖼️ Unit 4 Face </h1>
+  <h1>🖼️ Unit 6 Toys </h1>
   <p>Look at the word and click on the correct picture. You will create a collage!</p>
   <button class="btn" onclick="startGame()">Start Game</button>
   <img src="osito.png" alt="teddy bear" class="cover-teddy">
@@ -137,16 +137,16 @@ h1 { color:var(--accent); margin:0 0 12px 0; text-align:center; }
 <script>
 // Emotions and images
 const emotions = [
-  {name:"cheeks", img:"cheeks4.jpg", audio:"cheeks.mp3"},
-  {name:"ears", img:"ears4.jpg", audio:"ears.mp3"},
-  {name:"eyebrows", img:"eyebrows4.jpg", audio:"eyebrows.mp3"},
-  {name:"eyes", img:"eyes4.jpg", audio:"eyes.mp3"},
-  {name:"face", img:"face4.jpg", audio:"face.mp3"},
-  {name:"head", img:"head4.jpg", audio:"head.mp3"},
-  {name:"mouth", img:"mouth4.jpg", audio:"mouth.mp3"},
-  {name:"nose", img:"nose4.jpg", audio:"nose.mp3"},
-  {name:"hair", img:"hair4.jpg", audio:"hair.mp3"},
-  {name:"three", img:"three4.jpg", audio:"three.mp3"}
+  {name:"doll", img:"doll4.jpg", audio:"doll.mp3"},
+  {name:"bear", img:"bear4.jpg", audio:"bear.mp3"},
+  {name:"blue", img:"blue4.jpg", audio:"blue.mp3"},
+  {name:"brown", img:"brown4.jpg", audio:"brown.mp3"},
+  {name:"car", img:"car4.jpg", audio:"car.mp3"},
+  {name:"ball", img:"ball4.jpg", audio:"ball.mp3"},
+  {name:"small", img:"small4.jpg", audio:"small.mp3"},
+  {name:"big", img:"nose4.jpg", audio:"nose.mp3"},
+  {name:"top", img:"top4.jpg", audio:"top.mp3"},
+  {name:"yo-yo", img:"yoyo4.jpg", audio:"yo-yo.mp3"}
 ];
 
 const allImages = emotions.map(e=>e.img);
@@ -258,6 +258,7 @@ function shuffle(array){
 
 </body>
 </html>
+
 
 
 
