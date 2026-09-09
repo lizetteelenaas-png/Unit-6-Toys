@@ -58,11 +58,11 @@
   }
 
   .board {
-    width: calc(3*120px + 2*6px);
-    height: calc(3*120px + 2*6px);
+    width: calc(2*180px + 1*6px);
+    height: calc(2*180px + 1*6px);
     display:grid;
-    grid-template-columns:repeat(3,120px);
-    grid-template-rows:repeat(3,120px);
+    grid-template-columns:repeat(2,180px);
+    grid-template-rows:repeat(2,180px);
     gap:6px;
     padding:6px;
     background:#fff;
@@ -73,8 +73,8 @@
   }
 
   .cell {
-    width:120px;
-    height:120px;
+    width:180px;
+    height:180px;
     border-radius:8px;
     background-repeat:no-repeat;
     background-size:360px 360px;
@@ -231,8 +231,8 @@ const emotions = [
   { name: "yo-yo", img: "yoyo3.jpg", audio: "yo-yo.mp3" }
 ];
 
-const SIZE = 3;
-const TILE = 120;
+const SIZE = 2;
+const TILE = 180;
 let current = 0;
 let draggedCell = null;
 let picked = null;
